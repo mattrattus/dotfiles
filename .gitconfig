@@ -1,0 +1,7 @@
+[user]
+	name = Matt
+	email = 79484060+mattrattus@users.noreply.github.com
+[core]
+	editor = nvim
+[init]
+	templateDir = ~/.config/git/template/

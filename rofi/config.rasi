@@ -1,0 +1,10 @@
+configuration {
+	theme: "custom-nord.rasi";
+	font: "System San Francisco Display 15";
+	modi: "window,drun,ssh";
+	combi-modi: "window,drun,ssh";
+	show-icons: true;
+	columns: 1;
+	width: 50;
+	lines: 5;
+}
