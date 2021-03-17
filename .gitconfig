@@ -4,4 +4,4 @@
 [core]
 	editor = nvim
 [init]
-	templateDir = ~/.config/git/template/
+	defaultBranch = main
