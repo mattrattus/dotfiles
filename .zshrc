@@ -125,6 +125,7 @@ alias reflector="sudo reflector --verbose --latest 10 --protocol https --sort ra
 alias dvd="mpv dvd://"
 alias rsync="rsync -aXAv"
 alias virsh="virsh -c qemu:///system"
+alias -g pdf="firejail qpdfview"
 
 #ukrycie nazwy w terminalu
 prompt_context(){}
