@@ -126,6 +126,7 @@ alias dvd="mpv dvd://"
 alias rsync="rsync -aXAv"
 alias virsh="virsh -c qemu:///system"
 alias -g pdf="firejail qpdfview"
+alias -g aur="makepkg -sirc"
 
 #ukrycie nazwy w terminalu
 prompt_context(){}
