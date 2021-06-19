@@ -84,7 +84,7 @@ bindsym $mod+a focus parent
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1: Zsh "
-set $ws2 "2: Atom "
+set $ws2 "2: VSCode "
 set $ws3 "3: Edit "
 set $ws4 "4: Graphic "
 set $ws5 "5: E-mail "
@@ -238,7 +238,7 @@ exec --no-startup-id xscreensaver -nosplash
 
 # dmenu + workspaces
 
-assign [class="^Atom$"] $ws2
+assign [class="^VSCodium$"] $ws2
 assign [class="^Notepadqq$"] $ws3
 assign [class="^calibre$"] $ws3
 assign [class="^libreoffice-startcenter$"] $ws3
