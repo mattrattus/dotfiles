@@ -37,3 +37,5 @@ c.tabs.position = "left"
 c.tabs.select_on_remove = "next"
 
 c.tabs.width = "10%"
+
+c.url.searchengines = {"DEFAULT": "https://duckduckgo.com/?q={}", "wa": "https://wiki.archlinux.org/?search={}"}
