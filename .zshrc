@@ -127,6 +127,7 @@ alias rsync="rsync -aXAv"
 alias virsh="virsh -c qemu:///system"
 alias -g pdf="firejail qpdfview"
 alias -g aur="makepkg -sirc"
+alias wirus="clamscan --recursive --infected --max-filesize=4000M --max-scansize=4000M"
 
 #ukrycie nazwy w terminalu
 prompt_context(){}
