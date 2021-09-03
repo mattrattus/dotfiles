@@ -1,10 +1,26 @@
 configuration {
-	theme: "custom-nord.rasi";
 	font: "System San Francisco Display 15";
-	modi: "window,drun,ssh";
 	combi-modi: "window,drun,ssh";
-	show-icons: true;
-	columns: 1;
-	width: 50;
+combi {
+    display-name: "ArchLinux:";
+  }
+timeout {
+      delay:  3;
+      action: "kb-cancel";
+  }
+}
+
+@theme "custom-nord.rasi"
+listview {
 	lines: 5;
+	columns: 1;
+}
+
+window {
+	width: 50%;
+}
+
+element-text {
+    background-color: inherit;
+    text-color: inherit;
 }
