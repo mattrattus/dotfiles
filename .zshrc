@@ -101,7 +101,7 @@ source $ZSH/oh-my-zsh.sh
 # Aliases
 
 alias ls="ls -lah --color=auto --group-directories-first -v"
-alias su="su -l"
+alias su=" sudo su -l"
 alias df="df -H"
 alias -g du="du -sh"
 alias -g H=" --help | less"
@@ -129,6 +129,8 @@ alias -g pdf="firejail qpdfview"
 alias -g aur="makepkg -sirc"
 alias wirus="clamscan --recursive --infected --max-filesize=4000M --max-scansize=4000M"
 alias xclip="xclip -selection c"
+alias TEMP="cd /run/media/matt/TEMP"
+alias DISK="cd /run/media/matt/DISK"
 
 #ukrycie nazwy w terminalu
 prompt_context(){}
