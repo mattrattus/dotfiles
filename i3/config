@@ -169,7 +169,7 @@ workspace $ws3 output VGA1
 workspace $ws4 output VGA1
 workspace $ws5 output VGA1
 workspace $ws6 output VGA1
-workspace $ws7 output LVDS1
+workspace $ws7 output VGA1
 workspace $ws8 output LVDS1
 workspace $ws9 output LVDS1
 workspace $ws10 output LVDS1
