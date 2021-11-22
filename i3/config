@@ -6,7 +6,7 @@
 set $mod Mod1
 
 # terminal
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec kitty
 
 # dmenu (a program launcher)
 bindsym $mod+d exec rofi -show combi
