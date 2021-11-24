@@ -140,7 +140,7 @@ bindsym $mod+Shift+0 move container to workspace $ws10
 
 # 
 assign [class="^VSCodium$"] $ws2
-assign [class="^Notepadqq$"] $ws3
+assign [class="^Xed$"] $ws3
 assign [class="^calibre$"] $ws3
 assign [class="^libreoffice-startcenter$"] $ws3
 assign [class="^Gimp-2.10$"] $ws4
@@ -180,7 +180,7 @@ workspace $ws10 output LVDS1
 ####################
 
 # autostart
-exec --no-startup-id alacritty
+exec --no-startup-id kitty
 exec --no-startup-id nm-applet
 exec --no-startup-id rssguard
 exec --no-startup-id pasystray
