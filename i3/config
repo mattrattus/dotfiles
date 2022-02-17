@@ -153,6 +153,8 @@ assign [class="^Tor Browser$"] $ws6
 assign [class="^qutebrowser$"] $ws6
 assign [class="^Brave-browser$"] $ws6
 assign [class="^Virt-viewer$"] $ws7
+assign [class="^FreeTube$"] $ws7
+assign [class="^LBRY$"] $ws7
 assign [class="^Virt-manager$"] $ws8
 assign [class="^Filezilla$"] $ws8
 assign [class="^Transmission-gtk$"] $ws8
@@ -169,7 +171,7 @@ workspace $ws3 output VGA1
 workspace $ws4 output VGA1
 workspace $ws5 output VGA1
 workspace $ws6 output VGA1
-workspace $ws7 output VGA1
+workspace $ws7 output LVDS1
 workspace $ws8 output LVDS1
 workspace $ws9 output LVDS1
 workspace $ws10 output LVDS1
@@ -181,8 +183,8 @@ workspace $ws10 output LVDS1
 
 # autostart
 exec --no-startup-id kitty
+exec --no-startup-id numlockx
 exec --no-startup-id nm-applet
-exec --no-startup-id rssguard
 exec --no-startup-id pasystray
 exec --no-startup-id blueman-applet
 exec --no-startup-id flameshot
