@@ -1,0 +1,15 @@
+auto-reload yes
+save-path /home/matt/.newsboat/saved_articles
+show-title-bar no
+reload-threads 5
+show-read-feeds yes
+confirm-delete-all-articles no
+feed-sort-order title
+bind-key d delete-article
+highlight feedlist "---.*---" red default bold
+highlight feedlist ".*0/0.." default default invis
+
+#browser qutebrowser
+#notify-program notify-send
+#notify-always yes
+#notify-format "%d new articles (%n unread articles, %f unread feeds)"

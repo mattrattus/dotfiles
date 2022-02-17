@@ -1,0 +1,45 @@
+https://themarkup.org/feeds/rss.xml Blogs
+https://edwardsnowden.substack.com/feed "~Substack_Edward_Snowden" Blogs
+https://greenwald.substack.com/feed "~Substack_Glenn_Greenwald" Blogs
+https://www.schneier.com/feed/atom Blogs
+https://protonmail.com/blog/rss Blogs
+https://protonvpn.com/blog/rss Blogs
+https://signal.org/blog/rss.xml Blogs
+https://ubuntu.com/blog/feed "~Ubuntu Blog" Blogs
+https://www.raspberrypi.org/blog/feed/ "~Raspberry Pi Foundation Blog" Blogs
+https://spreadprivacy.com/rss/ "~DuckDuckGo Blog" Blogs
+https://www.startpage.com/privacy-please/rss "~Startpage Blog" Blogs
+https://panoptykon.org/rss.xml Blogs
+https://spacex.com.pl/feed/posts/default Blogs
+https://www.linode.com/blog/feed/ Blogs
+https://www.redhat.com/en/rss/blog Blogs
+https://9to5linux.com/feed/atom Linux_news
+https://www.redhat.com/sysadmin/rss.xml "~Red Hat Enable Sysadmin" Linux_news
+https://news.itsfoss.com/feed/ Linux_news
+https://www.zdnet.com/topic/linux/rss.xml "~ZDNET Linux News" Linux_news
+https://opensource.com/feed Linux_news
+https://www.zdnet.com/news/rss.xml "~ZDNET News" Tech_news
+https://www.wired.com/feed/rss Tech_news
+https://feeds.feedburner.com/niebezpiecznik/ Secure_news
+https://www.chip.pl/feed Tech_news
+https://zaufanatrzeciastrona.pl/feed Secure_news
+https://feeds.feedburner.com/sekurak Secure_news
+https://archlinux.org/feeds/news/ Linux_updates
+https://calibre-ebook.com/changelog.rss "~Calibre news" Linux_updates
+https://www.debian.org/News/news Linux_updates
+https://www.debian.org/security/dsa Linux_updates
+https://distrowatch.com/news/dw.xml Linux_updates
+https://www.kali.org/rss.xml Linux_updates
+https://keepassxc.org/blog/feed.xml Linux_updates
+https://libera.chat/atom Linux_updates
+https://matrix.org/blog/feed "~Matrix.org" Linux_updates
+https://neovim.io/news.xml Linux_updates
+https://aws.amazon.com/about-aws/whats-new/recent/feed/ "~AWS News" Linux_updates
+https://www.pine64.org/feed Linux_updates
+https://rockylinux.org/rss.xml Linux_updates
+https://tails.boum.org/news/index.en.rss Linux_updates
+https://blog.torproject.org/rss.xml "~Tor Project Blog" Linux_updates
+https://ubuntu.com/security/notices/rss.xml Linux_updates
+https://code.visualstudio.com/feed.xml Linux_updates
+https://blog.weechat.org/feed/atom Linux_updates
+https://forums.whonix.org/tags/important-news.rss Linux_updates
