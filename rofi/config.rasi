@@ -1,5 +1,5 @@
 configuration {
-	font: "System San Francisco Display 15";
+	font: "System San Francisco Display 13";
 	combi-modi: "window,drun,ssh";
 combi {
     display-name: "ArchLinux:";

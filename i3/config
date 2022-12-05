@@ -35,7 +35,7 @@ workspace_auto_back_and_forth yes
 ##################
 
 # font
-font pango:System San Francisco Display Bold 11
+font pango:System San Francisco Display Bold 10
 
 # display
 exec --no-startup-id ~/.screenlayout/default.sh
@@ -108,7 +108,7 @@ set $ws2 "2: "
 set $ws3 "3: "
 set $ws4 "4: "
 set $ws5 "5: "
-set $ws6 "6: 龜"
+set $ws6 "6: "
 set $ws7 "7: "
 set $ws8 "8: "
 set $ws9 "9: "
@@ -146,7 +146,7 @@ assign [class="^libreoffice-startcenter$"] $ws3
 assign [class="^Gimp-2.10$"] $ws4
 assign [class="^Darktable$"] $ws4
 assign [class="^phototonic$"] $ws4
-assign [class="^Thunderbird$"] $ws5
+assign [class="^thunderbird$"] $ws5
 assign [class="^firefox$"] $ws6
 assign [class="^Chromium$"] $ws6
 assign [class="^Tor Browser$"] $ws6
@@ -163,18 +163,19 @@ assign [class="^Zim$"] $ws8
 assign [class="^Signal$"] $ws9
 assign [class="^Cawbird$"] $ws9
 assign [class="^KeePassXC$"] $ws10
+assign [class="^electrum$"] $ws10
 
 # 
-workspace $ws1 output Primary
+workspace $ws1 output VGA1
 workspace $ws2 output VGA1
 workspace $ws3 output VGA1
 workspace $ws4 output VGA1
 workspace $ws5 output VGA1
 workspace $ws6 output VGA1
-workspace $ws7 output LVDS1
-workspace $ws8 output LVDS1
-workspace $ws9 output LVDS1
-workspace $ws10 output LVDS1
+workspace $ws7 output HDMI3
+workspace $ws8 output HDMI3
+workspace $ws9 output HDMI3
+workspace $ws10 output HDMI3
 
 
 ####################
@@ -242,8 +243,8 @@ bindsym $mod+e layout toggle split
 bindsym $mod+Shift+space floating toggle
 
 # moving workspaces between screens
-bindsym $mod+Shift+p move workspace to output LVDS1
-bindsym $mod+Shift+o move workspace to output VGA1
+bindsym $mod+Shift+o move workspace to output HDMI3
+bindsym $mod+Shift+p move workspace to output VGA1
 
 # hiding the bar
 bindsym $mod+m bar mode toggle

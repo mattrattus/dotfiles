@@ -121,12 +121,13 @@ alias reflector="sudo reflector --verbose --latest 10 --protocol https --sort ra
 alias dvd="mpv dvd://"
 alias rsync="rsync -aXAv"
 alias virsh="virsh -c qemu:///system"
-alias -g pdf="firejail qpdfview"
+alias -g pdf="firejail zathura"
 alias -g aur="makepkg -sirc"
 alias wirus="clamscan --recursive --infected --max-filesize=4000M --max-scansize=4000M"
 alias xclip="xclip -selection c"
 alias TEMP="cd /run/media/matt/TEMP"
 alias DISK="cd /run/media/matt/DISK"
+alias JG="cd /run/media/matt/JG"
 
 #ukrycie nazwy w terminalu
 prompt_context(){}
