@@ -129,6 +129,8 @@ alias TEMP="cd /run/media/matt/TEMP"
 alias DISK="cd /run/media/matt/DISK"
 alias JG="cd /run/media/matt/JG"
 alias webcam="mpv av://v4l2:/dev/video0 --profile=low-latency --untimed"
+alias torrent_on="transmission-daemon"
+alias torrent_off="transmission-remote --exit"
 
 #ukrycie nazwy w terminalu
 prompt_context(){}
