@@ -68,7 +68,7 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git sudo archlinux)
+plugins=(git sudo archlinux zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -80,11 +80,11 @@ source $ZSH/oh-my-zsh.sh
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='vim'
+else
+  export EDITOR='nvim'
+fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -93,19 +93,15 @@ source $ZSH/oh-my-zsh.sh
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Aliases
 
-alias ls="ls -lah --color=auto --group-directories-first -v"
+#alias ls="ls -lah --color=auto --group-directories-first -v"
 alias su=" sudo su -l"
 alias df="df -H"
-alias -g du="du -sh"
-alias -g H=" --help | less"
-alias -g L=" | less"
+alias du="du -sh"
+alias H=" --help | less"
+alias L=" | less"
 alias -g vim="nvim"
 alias h="history"
 alias s1="sha1sum"
@@ -119,10 +115,10 @@ alias shred="shred -vzun 3"
 alias lock="physlock"
 alias reflector="sudo reflector --verbose --latest 10 --protocol https --sort rate --save /etc/pacman.d/mirrorlist"
 alias dvd="mpv dvd://"
-alias rsync="rsync -aXAv"
+#alias rsync="rsync -aXAv"
 alias virsh="virsh -c qemu:///system"
-alias -g pdf="firejail zathura"
-alias -g aur="makepkg -sirc"
+alias pdf="firejail zathura"
+alias aur="makepkg -sirc"
 alias wirus="clamscan --recursive --infected --max-filesize=4000M --max-scansize=4000M"
 alias xclip="xclip -selection c"
 alias TEMP="cd /run/media/matt/TEMP"
